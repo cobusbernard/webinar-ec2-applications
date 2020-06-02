@@ -2,4 +2,4 @@
 
 rm -rf /var/www/html/*
 pwd
-cp -R ./website/* /var/www/html/
+cp -vR ../website/* /var/www/html/
