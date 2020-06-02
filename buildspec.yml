@@ -3,8 +3,9 @@ version: 0.2
 phases:
   build:
     commands:
-      - zip webinar-app.zip webinar/* scripts/*
+      - zip webinar-app.zip webinar/*
 artifacts:
   files:
     - webinar-app.zip
     - appspec.yml
+    - scripts/*
