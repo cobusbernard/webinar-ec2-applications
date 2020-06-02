@@ -3,9 +3,9 @@ version: 0.2
 phases:
   build:
     commands:
-      - zip webinar-app.zip webinar/*
+      - echo "Nothing to compile here!"
 artifacts:
   files:
-    - webinar-app.zip
+    - website/*
     - appspec.yml
     - scripts/*
