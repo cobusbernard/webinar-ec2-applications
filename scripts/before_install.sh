@@ -1,6 +1,6 @@
 #!/bin/bash
 
-apt-get install zip
+apt-get install -y zip
 
 mkdir -p /opt/webinar-site
 now=$(date +"%y-%m-%d_%H-%M-%S")
